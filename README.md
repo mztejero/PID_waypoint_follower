@@ -29,15 +29,11 @@ $$
 The reference is calculated by taking the arctangent of the position error between the current coordinates and target coordinates and the error is adjusted to be between $-{\pi}$ and ${\pi}$
 
 $$
+\begin{aligned}
 {\psi}_{ref} = {\tan}^{-1} \left( \dfrac{y_{ref} - y}{x_{ref} - x} \right) \\
-$$
-
-$$
 {\psi}_{error} = {\psi}_{ref} - {\psi} \\
-$$
-
-$$
 {\psi}_{error} = {\psi_{error}} - 2{\pi} \left\lfloor \dfrac{{\psi}_{error} + {\pi}}{2{\pi}} \right\rfloor 
+\end{aligned}
 $$
 
 After computing the inputs $u_{speed}$ and $u_steer$ the inputs to $v_r$ and $v_l$ are calculated in the following way.
