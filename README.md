@@ -36,7 +36,7 @@ $$
 \end{aligned}
 $$
 
-After computing the inputs $u_{speed}$ and $u_steer$ the inputs to $v_r$ and $v_l$ are calculated in the following way.
+After computing the inputs $u_{speed}$ and $u_{steer}$ the inputs to $v_r$ and $v_l$ are calculated in the following way.
 
 $$
 \begin{aligned}
